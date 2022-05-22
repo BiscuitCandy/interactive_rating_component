@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script type="text/javascript" src="script.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class = "continer">
+
+    <div class="star_div">
+      <img class="star" alt="star" src="./images/icon-star.svg">
+    </div>
+
+    <div class="content">
+      <h2 class="heading">How did we do?</h2>
+      <div class="des">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </div>
+    </div>
+
+    <div class="rating">
+      <button class="option" id="option1" onclick="onOption(1)">1</button>
+      <button class="option" id="option2" onclick="onOption(2)">2</button>
+      <button class="option" id="option3" onclick="onOption(3)">3</button>
+      <button class="option" id="option4" onclick="onOption(4)">4</button>
+      <button class="option" id="option5" onclick="onOption(5)">5</button>
+    </div>
+
+    <div>
+      <button class="submit" onclick="onSubmit()">SUBMIT</button>
+    </div>
+
+  </div>
+  
+  <div class="attribution" role="footnote">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

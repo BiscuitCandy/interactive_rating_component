@@ -1,0 +1,138 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.continer {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid black 1px;
+    border-radius: 5%;
+    padding: 20px;
+    background: hsl(213, 19%, 18%);
+}
+
+.star_div {
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(217, 12%, 54%, 0.25);
+    border-radius: 50%;
+}
+
+.star {
+}
+
+.content {
+
+}
+
+.heading {
+    font-weight: 700;
+    margin: 10px 0px;
+    color: white;
+}
+
+.des {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating {
+    
+}
+
+.option {
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    background-color: hsla(216, 12%, 8%, 0.4);
+    color: hsl(216, 12%, 54%);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    box-shadow: none;
+}
+
+#option1:hover {
+    background-color: orange;
+}
+
+#option2:hover {
+    background-color: violet;
+}
+
+#option3:hover {
+    background-color: greenyellow;
+}
+
+#option4:hover {
+    background-color: blue;
+}
+#option5:hover {
+    background-color: green;
+}
+
+.submit {
+    border-radius: 40px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    width: 340px;
+    border-width: 0px;
+    background: orange;
+    color: white;
+}
+
+.rating_points {
+    font-size: 13px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: fit-content;
+    border-width: 0px;
+    text-align: center;
+    padding: 8px 16px;
+    background: hsla(217, 12%, 54%, 0.25);
+    color: orange;
+}
+
+.feedback {
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#submit_des {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 500px){
+    .continer {
+        width: 300px;
+    }
+    .option {
+        height: 40px;
+        width: 40px;
+    }
+    .submit {
+        width: 290px;
+    }
+}
