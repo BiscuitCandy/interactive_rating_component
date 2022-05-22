@@ -9,7 +9,7 @@
                 <img src="./images/illustration-thank-you.svg" alt="Thank you">
             </div>
 
-            <div class="rating_points">
+            <div class="rating_points" id="rat">
                 You have rated our service
             </div>
 
@@ -23,7 +23,9 @@
                 </div>
             </div>
         </div>
-
+        <script type="text/javascript">
+            document.getElementsByClassName("rating_points")[0].innerHTML = "You selected " + localStorage.rating + " out of 5";
+        </script>
     </body>
 
 </html>
